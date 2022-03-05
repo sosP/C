@@ -26,9 +26,9 @@ int main(){
 		}
 	}
 	for(int j=0;;j++){
-			if(fans[j]=='\0')
-				break;
-			printf("%c",fans[j]);
-		}
+		if(fans[j]=='\0')
+			break;
+		printf("%c",fans[j]);
+	}
 	return 0;
 }
